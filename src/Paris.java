@@ -1,6 +1,6 @@
 public class Paris extends BaseTrip{
 
-    public Paris(){
+    protected Paris(){
     }
 
     public String getDescription()
@@ -8,7 +8,11 @@ public class Paris extends BaseTrip{
         return "A trip to Paris,France\n";
     }
 
-    public double cost(){
+    public double getCost(){
         return 500.00;
+    }
+
+    public String getContinent() {
+        return "Europe";
     }
 }

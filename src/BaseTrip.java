@@ -6,6 +6,11 @@ public class BaseTrip implements Trip{
     }
 
     @Override
+    public String getContinent() {
+        return null;
+    }
+
+    @Override
     public double getCost() {
         return 250;
     }

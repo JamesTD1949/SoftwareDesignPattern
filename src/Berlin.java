@@ -8,7 +8,12 @@ public class Berlin extends BaseTrip{
         return "A trip to Berlin,Germany\n";
     }
 
-    public double cost(){
+    public double getCost(){
         return 300.00;
+    }
+
+    @Override
+    public String getContinent() {
+        return "Europe";
     }
 }

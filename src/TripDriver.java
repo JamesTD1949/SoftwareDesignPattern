@@ -7,10 +7,11 @@ public class TripDriver {
         DecoratedEuropeanTrip = new Circus(DecoratedEuropeanTrip);
         DecoratedEuropeanTrip = new Zoo(DecoratedEuropeanTrip);
 
-        System.out.println(EuropeanTrip.getDescription());
-        System.out.println("The total cost of your trip is: " + EuropeanTrip.getCost());
+        AirlineFactory airline = new AirlineFactory();
+        Airline chosenAirline = airline.createAirline(DecoratedEuropeanTrip.getContinent());
 
         System.out.println(DecoratedEuropeanTrip.getDescription());
-        System.out.println("The total cost of your trip is: " + DecoratedEuropeanTrip.getCost());
+        System.out.println("Your Airline will be: " + chosenAirline.getName());
+        System.out.println("The total cost of your trip is: " + DecoratedEuropeanTrip.getCost() + chosenAirline.getCost());
     }
 }

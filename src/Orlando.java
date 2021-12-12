@@ -8,7 +8,11 @@ public class Orlando extends BaseTrip{
         return "A trip to Orlando,USA\n";
     }
 
-    public double cost(){
+    public double getCost(){
         return 1000.00;
+    }
+
+    public String getContinent() {
+        return "Americas";
     }
 }

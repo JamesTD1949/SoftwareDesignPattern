@@ -15,4 +15,9 @@ public abstract class ActivityDecorator implements Trip{
     {
         return baseTrip.getCost();
     }
+
+    @Override
+    public String getContinent() {
+        return baseTrip.getContinent();
+    }
 }
