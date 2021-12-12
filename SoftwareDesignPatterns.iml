@@ -7,5 +7,42 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/commons-cli-1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/commons-codec-1.15.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/httpclient5-5.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/httpclient5-cache-5.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/httpclient5-fluent-5.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/httpclient5-testing-5.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/httpclient5-win-5.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/httpcore5-5.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/httpcore5-h2-5.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/httpcore5-reactive-5.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/httpcore5-testing-5.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/jna-5.2.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/jna-platform-5.2.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/reactive-streams-1.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/rxjava-2.2.8.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/lib/slf4j-api-1.7.25.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/commons-codec-1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/httpclient-4.2.5.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/httpclient-cache-4.2.5.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/httpcore-4.2.5.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/jackson-annotations-2.1.2.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/jackson-core-2.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/jackson-databind-2.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/org.apache.commons.io.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/slf4j-simple-1.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/ektorp-all/bin/org.ektorp-1.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jars/commons-logging-1.2/commons-logging-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Desktop/jars/commons-logging-1.2/commons-logging-1.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

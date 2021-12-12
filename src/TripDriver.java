@@ -13,5 +13,11 @@ public class TripDriver {
         System.out.println(DecoratedEuropeanTrip.getDescription());
         System.out.println("Your Airline will be: " + chosenAirline.getName());
         System.out.println("The total cost of your trip is: " + DecoratedEuropeanTrip.getCost() + chosenAirline.getCost());
+
+        DatabaseConnector.getConnector();
+
+        DatabaseConnector.commit(DecoratedEuropeanTrip);
+
+
     }
 }
