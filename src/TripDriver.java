@@ -10,9 +10,9 @@ public class TripDriver {
         AirlineFactory airline = new AirlineFactory();
         Airline chosenAirline = airline.createAirline(DecoratedEuropeanTrip.getContinent());
 
-        System.out.println(DecoratedEuropeanTrip.getDescription());
-        System.out.println("Your Airline will be: " + chosenAirline.getName());
-        System.out.println("The total cost of your trip is: " + DecoratedEuropeanTrip.getCost() + chosenAirline.getCost());
+        LuxuryTrip lux = new LuxuryTrip();
+        System.out.println(lux.bookAddOns(DecoratedEuropeanTrip));
+
 
         DatabaseConnector.getConnector();
 
