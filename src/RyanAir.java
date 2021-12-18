@@ -4,5 +4,6 @@ public class RyanAir extends Airline {
     {
         setName("RyanAir - Your Premier European Airline");
         setCost(250.00);
+        sailable = new Sailing();
     }
 }

@@ -4,5 +4,6 @@ public class Emirates extends Airline {
     {
         setName("Emirates Airlines - Your Premier Asian Airline");
         setCost(150.00);
+        sailable = new NotSailing();
     }
 }
